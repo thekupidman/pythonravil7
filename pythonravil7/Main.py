@@ -1,0 +1,63 @@
+#!/usr/bin/env python3
+# coding=utf-8
+
+from turtle import *
+
+t =Turtle()
+t.screen.setup(800, 800)
+t.speed(0)
+
+t.up()
+t.goto(200, -100)
+t.down()
+t.fillcolor("#ffffee")
+t.begin_fill()
+t.left(180)
+t.fd(40)
+t.left(90)
+t.circle(40, -45)
+t.left(90)
+t.fd(40)
+t.end_fill()
+
+t.up()
+t.right(135)
+t.fd(40)
+t.down()
+t.fillcolor("#ffff00")
+t.begin_fill()
+t.right(22)
+t.fd(400)
+t.left(112)
+t.circle(40, -45)
+t.left(113)
+t.fd(400)
+t.right(112)
+t.circle(40, 45)
+t.right(113)
+t.end_fill()
+
+t.fd(380)
+t.left(112)
+t.circle(40, -45)
+t.right(67)
+t.fd(20)
+
+t.fillcolor("#ff0000")
+t.begin_fill()
+t.right(36)
+t.circle(20, 255)
+t.right(106)
+t.circle(40, -45)
+t.left(113)
+t.end_fill()
+
+t.up()
+t.fd(50)
+t.right(90)
+t.fd(15)
+t.left(90)
+t.down()
+t.fd(100)
+
+t.screen.mainloop()
